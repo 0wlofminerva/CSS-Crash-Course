@@ -20,6 +20,23 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none; /* Eliminates underscore */
+    color: #000; /* Black */
+}
+
+a:hover{
+    color: red; /* hover state */
+}
+
+a:active{
+    color: green; /* active state, click on it */
+}
+
+/* a:visited{
+    color: yellow; x
+} */ /* hover state */
+
 .container{
     width: 80%; /* % Responds to the site size */
     margin: auto; /* It ests auto margin in sides */
@@ -64,4 +81,43 @@ body{
     letter-spacing: 0.2em;
     word-spacing: 1em;
 
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square; /* convert dots into squares */
+    list-style: none; /* Eliminates dots */
+
+
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.form-group{
+    padding-bottom: 15px;
 }
