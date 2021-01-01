@@ -40,7 +40,18 @@ a:active{
 .container{
     width: 80%; /* % Responds to the site size */
     margin: auto; /* It ests auto margin in sides */
+}
 
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+button:hover{
+    background-color: red;
+    color: #fff;
 }
 
 .box-1{
@@ -68,6 +79,10 @@ a:active{
 
     margin-top: 20px; /* space outside */
     margin: 20px 0;
+}
+
+.clr{
+    clear: both; /* clear any floats of it */
 }
 
 .box-1 h1{
@@ -118,6 +133,38 @@ a:active{
     padding: 20px;
 }
 
-.form-group{
+.my-form .form-group{
     padding-bottom: 15px;
+}
+
+.my-form label{ /* labels & inputs are inline level elements */
+    display: block; /* Block level elements */
+    /* set in a separate line */
+}
+
+.my-form input [type="text"], .my-form textarea /* type=text disregard the btn because it is not a type of text input  */ {
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* takes border & padding & apply it into the width */
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
 }
