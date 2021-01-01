@@ -28,3 +28,7 @@ Color In CSS
     – HTML5 Color names
     – Hexadecimal
     – RGB
+
+Fonts
+classes
+Margin & Padding
