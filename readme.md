@@ -30,5 +30,19 @@ Color In CSS
     – RGB
 
 Fonts
+
 classes
-Margin & Padding
+
+Margin
+
+    – space outside
+
+Padding
+
+    – space inside
+
+Margin & Padding Shorthand
+
+    – margin || padding: top, right, bottom, left;
+    – margin || padding: top & bottom, right & left;
+

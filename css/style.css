@@ -1,3 +1,10 @@
+/* * {
+     margin: 0; 
+    padding: 0;
+} */
+/* Every element selector */
+/* a reset, zero everything out, without having initial margin or padding in certain elements */
+
 body{
     background-color: #f4f4f4;
     color: #555555;
@@ -22,4 +29,39 @@ body{
 .box-1{
     background-color: #333;
     color: #fff;
+
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    
+    border: 5px red solid; /* Same as above */
+    border-width: 3px; /* set all sides */
+    border-bottom-width: 10px; /* Target a specific border */
+    border-top-style: dotted;
+
+    border: 5px red solid;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    padding: 20px; /* Same as above */
+
+    margin-top: 20px; /* space outside */
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    /* Target any h1 within this class */
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+
 }
