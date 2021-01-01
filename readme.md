@@ -18,13 +18,13 @@ What is CSS?
 
 3 Methods For Adding CSS
 
-– Inline CSS: Directly in the html element (NO!)
-– Internal CSS: Using <style></style> tags within a single document
-– External CSS: Linking a external .css file
+    – Inline CSS: Directly in the html element (NO!)
+    – Internal CSS: Using <style></style> tags within a single document
+    – External CSS: Linking a external .css file
 
 Color In CSS
 
-– Color Names
-– HTML5 Color names
-– Hexadecimal
-– RGB
+    – Color Names
+    – HTML5 Color names
+    – Hexadecimal
+    – RGB
