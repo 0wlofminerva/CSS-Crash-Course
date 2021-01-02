@@ -46,3 +46,12 @@ Margin & Padding Shorthand
     – margin || padding: top, right, bottom, left;
     – margin || padding: top & bottom, right & left;
 
+Positioining in CSS
+
+    – Static
+    – Relative
+    – Absolute
+    – Fixed
+    – Initial
+
+    – Inherit
