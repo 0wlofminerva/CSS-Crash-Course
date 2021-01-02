@@ -175,6 +175,13 @@ button:hover{
     border: 1px solid #000;
     margin-top: 30px;
     position: relative; /* Parent element positioned relative of .p-box h1  */
+    background-image: url('../images/bgimage.jpg');
+
+    background-repeat: no-repeat;
+    /*  */
+    background-position: 100px 200px; /* push it over a 100px & down 200px  */ /* You can also use %s */
+    background-position: center top; /* horizontaly &  verticaly */
+    /*  */
 }
 
 .p-box h1{
@@ -192,4 +199,25 @@ button:hover{
 .fix-me{
     position: fixed;
     top: 400px;
+}
+
+/* Pseudo elements */ /* CSS3 */
+
+.my-list li:first-child{ /* It selects the first child */
+    background: red;
+}
+
+.my-list li:last-child {
+    /* It selects the first child */
+    background: blue;
+}
+
+.my-list li:nth-child(5) {
+    /* It selects 5th */
+    background: yellow;
+}
+
+.my-list li:nth-child(even) {
+    /* It selects 5th */
+    background: grey;
 }
