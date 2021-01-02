@@ -168,3 +168,28 @@ button:hover{
     padding: 15px;
     box-sizing: border-box;
 }
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative; /* Parent element positioned relative of .p-box h1  */
+}
+
+.p-box h1{
+    position: absolute; /* Child element positioned absolute of .p-box parent */
+    top: 100px; /* it lowers 100px from top */
+    left: 200px; /* to the right from the left 200px */
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
